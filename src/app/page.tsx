@@ -12,7 +12,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Award, Bed, Briefcase, Calendar, Gift, Heart, HelpCircle, MessageSquare, Sparkles, ThumbsUp, Trophy, Users } from 'lucide-react';
+import { Award, Bed, Briefcase, Calendar, Gift, Heart, HelpCircle, MessageSquare, Sparkles, ThumbsUp, Trophy, Users, Instagram, Facebook, Twitter } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -408,9 +408,9 @@ export default function HomePage() {
             }
           ]}
           socialLinks={[
-            { icon: "Instagram", href: "https://instagram.com/grandhaven", ariaLabel: "Instagram" },
-            { icon: "Facebook", href: "https://facebook.com/grandhaven", ariaLabel: "Facebook" },
-            { icon: "Twitter", href: "https://twitter.com/grandhaven", ariaLabel: "Twitter" }
+            { icon: Instagram, href: "https://instagram.com/grandhaven", ariaLabel: "Instagram" },
+            { icon: Facebook, href: "https://facebook.com/grandhaven", ariaLabel: "Facebook" },
+            { icon: Twitter, href: "https://twitter.com/grandhaven", ariaLabel: "Twitter" }
           ]}
           copyrightText="© 2025 Grand Haven Hotel. All rights reserved."
         />
