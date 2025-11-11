@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -72,42 +72,42 @@ export default function HomePage() {
           animationType="blur-reveal"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Spa & Wellness Center",
               description: "Rejuvenate your body and soul at our award-winning spa featuring signature treatments and state-of-the-art wellness facilities",
               imageSrc: "https://pixabay.com/get/g824b5ba7106c2c8de8b3c69bd5a1855a2aa02941bc2830a555f2a275774e9994d51586ccdff4f4d3aaf8443e195d9562e082c1f7d13191d1f5fe5d9f9ee11fc8_1280.jpg",
               imageAlt: "Luxury spa treatment room"
             },
             {
-              id: "2",
+              id: 2,
               title: "Fine Dining Restaurant",
               description: "Savor culinary masterpieces crafted by our renowned chefs using the finest local and international ingredients",
               imageSrc: "https://pixabay.com/get/g8281d462ba9e7f4406209d948dbbe2fb6778e730a295d8f8c3714714f1f8776d0adf632b4f412ecd4586515516afdea088858e93947163ce07509eb1c886a021_1280.jpg",
               imageAlt: "Elegant restaurant dining room"
             },
             {
-              id: "3",
+              id: 3,
               title: "Rooftop Infinity Pool",
               description: "Relax in our stunning infinity pool offering breathtaking panoramic views of the city skyline",
               imageSrc: "https://pixabay.com/get/g6b797f40ae5483ed442ecc81cd4c9c38c83759e95935be258696c05a795056d434a95c065b0c821e98ce4c30d017d087a6b19f9ed5737f00718bcdfa0d2e7d88_1280.jpg",
               imageAlt: "Rooftop infinity pool with city view"
             },
             {
-              id: "4",
+              id: 4,
               title: "24/7 Fitness Center",
               description: "Maintain your fitness routine with our fully equipped gym featuring the latest exercise equipment",
               imageSrc: "https://pixabay.com/get/g21917614ffd2602c18ea021a4122db819eaf63f248e9e6ee497ee47ac6d6251dbd3afaa27b6ec1fa09d04e2a2316eb7027f8d162b1733d4c0dd5ba9773e411b9_1280.jpg",
               imageAlt: "Modern hotel fitness center"
             },
             {
-              id: "5",
+              id: 5,
               title: "Concierge Services",
               description: "Our dedicated concierge team is available around the clock to assist with reservations, tours, and special requests",
               imageSrc: "https://pixabay.com/get/g0b1bf0bb731c05bf7cad3c28db633a83f88ba02b4ae2e71c2f89208b984c337151512a27a79e73bc7cbc7a08577e4b66751753f55603e2df9c603c60b64fcd37_1280.jpg",
               imageAlt: "Professional concierge service desk"
             },
             {
-              id: "6",
+              id: 6,
               title: "Event Spaces",
               description: "Host memorable events in our elegant ballrooms and meeting spaces equipped with cutting-edge technology",
               imageSrc: "https://pixabay.com/get/gbee470ea0abdee20c9bbcf8f63208e4f24467912e72e77927e453edd3b0483df822348ef2c8128f8a1bfca33cab374b70251af5123d69efc460ff14856a8d93f_1280.jpg",
@@ -133,7 +133,7 @@ export default function HomePage() {
               price: "From $299/night",
               imageSrc: "https://pixabay.com/get/gc07063f995cb8f1841db95e67d470d36d8d41ef150bc550abc38623831224424801902846b406b068aa5867fdd9bd5db0a651522fc92d607795128cf038d51c1_1280.jpg",
               imageAlt: "Deluxe suite bedroom",
-              onProductClick: "() => window.open('/rooms/deluxe', '_blank')"
+              onProductClick: () => window.open('/rooms/deluxe', '_blank')
             },
             {
               id: "premium-suite",
@@ -141,7 +141,7 @@ export default function HomePage() {
               price: "From $459/night",
               imageSrc: "https://pixabay.com/get/g75a2035d11511a12f7c887d2f01b3cb8b44a0036a6c6dc8e536bcf2beeacf8a82fdb1962aee3509a21ef801900033600d4b7847553b9537d0290350bdec143ee_1280.jpg",
               imageAlt: "Premium suite with ocean view",
-              onProductClick: "() => window.open('/rooms/premium', '_blank')"
+              onProductClick: () => window.open('/rooms/premium', '_blank')
             },
             {
               id: "presidential-suite",
@@ -149,7 +149,7 @@ export default function HomePage() {
               price: "From $899/night",
               imageSrc: "https://pixabay.com/get/gb63f255aeadee775ec6eb36877a1b5b4f781e1bcef6ee8c3262c9c04273fb2aec66c2d3236fde47585125f3443bba19b7c50773b403540bcecf247c0942813ee_1280.jpg",
               imageAlt: "Presidential suite living area",
-              onProductClick: "() => window.open('/rooms/presidential', '_blank')"
+              onProductClick: () => window.open('/rooms/presidential', '_blank')
             }
           ]}
         />
@@ -269,8 +269,7 @@ export default function HomePage() {
               company: "TechCorp Industries",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g34bf0f20848be9d1888df588d9cc5d5c3ca424234706db982aa472d9c079e747f0f98eec8d281afe36e35d6051d7a1502a0fb480787e30530c10d366559c78ff_1280.png",
-              imageAlt: "Sarah Johnson portrait",
-              testimonial: "The Grand Haven Hotel exceeded all my expectations. The service was impeccable and the amenities were world-class."
+              imageAlt: "Sarah Johnson portrait"
             },
             {
               id: "2",
@@ -279,8 +278,7 @@ export default function HomePage() {
               company: "Celebrating 10 Years",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g7c4e62e4c6d29c2f5ee5f6d05b5105ddd790241e14262ab5ba36655cee4475b93efcaca2496438420b23053b4b33aaa81d0b3c8bfff6bea143eac196b4b68f52_1280.jpg",
-              imageAlt: "Michael and Emma Chen",
-              testimonial: "Our anniversary stay was magical. The romantic package was perfect and created memories we'll cherish forever."
+              imageAlt: "Michael and Emma Chen"
             },
             {
               id: "3",
@@ -289,8 +287,7 @@ export default function HomePage() {
               company: "Global Investments Ltd",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g66b0ceef2d14655d08a2f6cc6d18b3b5d631d95f28cc899a55c43e131cd73a58c00f3ccabcd0a3be5a7ed0325dafebb10b669db169ccdd948b91d56f5764131f_1280.jpg",
-              imageAlt: "David Rodriguez portrait",
-              testimonial: "As a frequent business traveler, I can say this hotel sets the gold standard. Everything was flawless."
+              imageAlt: "David Rodriguez portrait"
             },
             {
               id: "4",
@@ -299,8 +296,7 @@ export default function HomePage() {
               company: "Luxury Wanderer",
               rating: 5,
               imageSrc: "https://pixabay.com/get/gbf224854fb52a3fe16d5571aec1f860e3203f7e950913b757b531b0c02e8916b94267b0bb5cadf5befa3ede92c5f985bb225f7185fd60219398b1be5c7804032_1280.jpg",
-              imageAlt: "Isabella Martinez portrait",
-              testimonial: "I've stayed at luxury hotels worldwide, but Grand Haven Hotel truly stands out. The attention to detail is remarkable."
+              imageAlt: "Isabella Martinez portrait"
             }
           ]}
         />
